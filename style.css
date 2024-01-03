@@ -9,6 +9,12 @@ body{
     display: flex;
 }
 
+@media (100px <= width <= 1000px){
+    body{
+        margin: 15%;
+    }
+}
+
 .card-layout{
     display: flex;
     flex-wrap: wrap;
