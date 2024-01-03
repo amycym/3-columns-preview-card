@@ -1,2 +1,111 @@
-/* font-family: 'Lexend Deca', sans-serif; */
-/* font-family: 'Big Shoulders Display', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 10% 20% 0;
+    display: flex;
+}
+
+@media (100px <= width <= 1000px){
+    body{
+        margin: 15%;
+    }
+}
+
+.card-layout{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.card-layout > * {
+    flex-basis: 30%;
+    padding: 30px;
+}
+
+img{
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+}
+
+.orange-card{
+    background: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+}
+
+@media (100px <= width <= 1100px){
+    .orange-card{
+    border-radius: 10px 10px 0 0;
+    }
+}
+
+.cyan-card{
+    background: hsl(184, 100%, 22%);
+}
+
+.darkcyan-card{
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+}
+
+@media (100px <= width <= 1150px){
+    .darkcyan-card{
+    border-radius: 0 0 10px 10px;
+    }
+}
+
+
+h2, p {
+    color: hsl(0, 0%, 95%);
+    margin: 20px 18px 10px;
+}
+
+@media (100px <= width <= 1200px){
+    h2, p{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    }
+}
+
+h2{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 30px;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+
+button{
+    border-radius: 30px;
+    padding: 15px;
+    width: 150px;
+    border: none;
+    cursor: pointer;
+    margin: 90px 10px 0;
+    font-size: 15px;
+}
+
+@media (100px <= width <= 1200px){
+    button{
+    margin: 25px 70px 5px 10px;
+    }
+}
+
+.orange-button{
+    color: hsl(31, 77%, 52%);
+}
+
+.cyan-button{
+    color: hsl(184, 100%, 22%);
+}
+
+.darkcyan-button{
+    color: hsl(179, 100%, 13%);
+}
