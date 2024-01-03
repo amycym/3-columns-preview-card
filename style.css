@@ -1,5 +1,3 @@
-/* font-family: 'Lexend Deca', sans-serif; */
-/* font-family: 'Big Shoulders Display', sans-serif; */
 
 *{
     padding: 0;
@@ -36,6 +34,12 @@ img{
     border-radius: 10px 0 0 10px;
 }
 
+@media (max-width: 600px){
+    .orange-card{
+    border-radius: 10px 10px 0 0;
+    }
+}
+
 .cyan-card{
     background: hsl(184, 100%, 22%);
 }
@@ -44,6 +48,13 @@ img{
     background: hsl(179, 100%, 13%);
     border-radius: 0 10px 10px 0;
 }
+
+@media (max-width: 600px){
+    .darkcyan-card{
+    border-radius: 0 0 10px 10px;
+    }
+}
+
 
 h2, p {
     color: hsl(0, 0%, 95%);
