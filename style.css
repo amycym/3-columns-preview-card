@@ -1,2 +1,16 @@
 /* font-family: 'Lexend Deca', sans-serif; */
 /* font-family: 'Big Shoulders Display', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    margin-top: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
