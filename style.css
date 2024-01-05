@@ -42,6 +42,12 @@ p{
     border-radius: 10px 0 0 10px;
 }
 
+@media (100px <= width <= 640px){
+    .orange{
+    border-radius: 10px 10px 0 0;
+    }
+}
+
 .cyan{
     background: hsl(184, 100%, 22%);
 }
@@ -49,6 +55,12 @@ p{
 .darkcyan{
     background: hsl(179, 100%, 13%);
     border-radius: 0 10px 10px 0;
+}
+
+@media (100px <= width <= 800px){
+    .darkcyan{
+    border-radius: 0 0 10px 10px;
+    }
 }
 
 .card{
