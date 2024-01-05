@@ -94,7 +94,7 @@ button{
 
 button:hover{
     background: transparent;
-    border: black solid;
+    border: white solid;
     color: hsla(0, 0%, 100%, 0.75);
 }
 
