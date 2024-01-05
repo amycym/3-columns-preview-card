@@ -92,6 +92,12 @@ button{
     font-size: 15px;
 }
 
+button:hover{
+    background: transparent;
+    border: black solid;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
 @media (100px <= width <= 1200px){
     button{
     margin: 25px 70px 5px 10px;
