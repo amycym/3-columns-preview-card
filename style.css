@@ -1,5 +1,5 @@
-/* font-family: 'Lexend Deca', sans-serif; */
-/* font-family: 'Big Shoulders Display', sans-serif; */
+/* :root can be use as global CSS, so you no need to repeat coding, below is a way I try to use it to see the difference */
+
 :root{
     --font-heading: 'Big Shoulders Display', sans-serif;
     --color-orange: hsl(31, 77%, 52%);
