@@ -34,12 +34,13 @@ p{
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
-    line-height: 25px;
+    line-height: 23px;
 }
 
 
 .orange{
     background: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
 }
 
 .cyan{
@@ -48,11 +49,12 @@ p{
 
 .darkcyan{
     background: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
 }
 
 .card{
     display: grid;
-    padding: 40px 25px 0;
+    padding: 40px 36px 0;
     grid-template-rows: repeat(15, 30px);
 }
 
@@ -65,7 +67,7 @@ p{
 }
 
 .button{
-    grid-row: 14;
+    grid-row: 13;
 }
 
 button{
@@ -75,6 +77,13 @@ button{
     border: none;
     background: hsl(0, 0%, 95%);
     font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: transparent;
+    color: hsla(0, 0%, 100%, 0.75);
+    border: solid white;
 }
 
 .btn-orange{
