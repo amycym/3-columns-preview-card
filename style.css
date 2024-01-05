@@ -18,9 +18,8 @@ body{
 .center-card{
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     height: 500px;
-    width: 900px;
     margin: 0 10% 0;
 }
 
