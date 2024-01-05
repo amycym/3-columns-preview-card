@@ -20,7 +20,7 @@ body{
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
     height: 500px;
-    width: fit-content;
+    width: 900px;
     margin: 0 10% 0;
 }
 
@@ -50,6 +50,19 @@ p{
 .card{
     display: grid;
     padding: 40px 25px 0;
+    grid-template-rows: repeat(15, 30px);
+}
+
+.header{
+    grid-row: 4;
+}
+
+.content{
+    grid-row: 6;
+}
+
+.button{
+    grid-row: 14;
 }
 
 button{
