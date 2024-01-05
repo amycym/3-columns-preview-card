@@ -27,11 +27,14 @@ body{
 h2{
     font-family: 'Big Shoulders Display', sans-serif;
     color: hsl(0, 0%, 95%);
+    font-size: 40px;
 }
 
 p{
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    line-height: 25px;
 }
 
 
@@ -58,7 +61,7 @@ p{
 }
 
 .content{
-    grid-row: 6;
+    grid-row: 7;
 }
 
 .button{
@@ -71,4 +74,17 @@ button{
     padding: 15px;
     border: none;
     background: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn-orange{
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-cyan{
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-darkcyan{
+    color: hsl(179, 100%, 13%);
 }
